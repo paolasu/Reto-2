@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario Registro</title>
+</head>
+
+<body>
+    <section class="Registro"></section>
+    <h1 id="Titulo">Formulario de inscripcion</h1>
+    <p id="Description">Este Formiulario es muy importante llenarlo ya que es la Inscripcion al curso que usted desea
+        realizar sin este proceso no podra acceder a los cursos</p>
+    <form id="survey form">
+        <label for="nombre" id="name-label"> Nombre </label>
+        <input id="name" type="text" name="nombres" placeholder="Nombre completo"> 
+        
+        <br>
+
+        <label for="Apellidos"id="Apellido-label"> Apellidos</label>
+        <input id="apellido" type="text" name="Apellidos" placeholder="pellidos Completos">
+        <br>
+        <label for="Numero" id="numero-label"> Edad</label>
+        <input id="Numero" type="number" name="number" placeholder="Edad" min="18" max="28" required>
+        <br>
+    
+        <label for="correo" id="correo-label">Correo</label>
+        <input id="correo" type="email" name="nombres" placeholder="correo" required>
+        <br>
+        <label for="Contrasena" id="contrasena-label"> Contrasena</label>
+        <input id="contrasena" type="password" name="nombres" placeholder="contrasena" >
+        <br>
+        
+        <label for="dropdown" id="Cursodeseado"> Que curso desea?</label>
+        <select id="dropdown">
+        <option value="curso 1">Curso de Front end</option>
+        <option value="curso 2">Curso de Back end</option>
+        <option value="curso 3"> de TI</option>
+    </select>
+    <p>Cuanto tiempo libre tienes al dia?</p>
+        <label form="tiempo libre" id="Tiempo">5 horas</label>
+        <input id="tiempo" type="radio" id=5>
+        <br>
+        <label form="tiempo libre" id="Tiempo">3 horas</label>
+        <input id="tiempo" type="radio" id=3>
+        <br>
+        <label form="tiempo libre" id="Tiempo">6 horas</label>
+        <input id="tiempo" type="radio" id=6>
+        <br>
+        <br>
+        <label id="textarea">Comentarios</label>
+        <br>
+        <br>
+        <textarea id="textarea" name="instrucciones" rows="10" cols="50"></textarea>
+        <br>
+        <br>
+        <input id="Submit" type="submit">
+</form>
+
+
+</body>
+
+</html>
